@@ -1,10 +1,8 @@
 // GitHUb-владелец/репозиторий — замени на свои
 const REPO_OWNER = 'YOUR_GITHUB_USERNAME';
 const REPO_NAME = 'kinetic-dlc';
-// Прямая ссылка на последний релиз (замени на свою, если нужна конкретная)
-const LATEST_URL = 'https://github.com/' + REPO_OWNER + '/' + REPO_NAME + '/releases/latest/download/kinetic-1.0.0.jar';
-// Если у тебя GitHub Pages в том же репо — файлы лежат рядом, можно ссылаться локально:
-// const LATEST_URL = 'releases/kinetic-1.0.0.jar';
+// Прямая ссылка на последний релиз (Dropbox, dl=1 = сразу скачивается)
+const LATEST_URL = 'https://www.dropbox.com/scl/fi/dfjfbrc4o39t5evu4oybn/kinetic-1.0.jar?rlkey=mntwg51yw85s4gefpf4dbkabs&st=tjn300gf&e=1&dl=1';
 
 const TYPING = [
   'преврати свой майнкрафт в имбу',
