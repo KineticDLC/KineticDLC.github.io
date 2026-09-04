@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kinetic DLC — скачать</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="bg"></canvas>
+
+  <header class="nav">
+    <div class="nav-inner">
+      <div class="logo">K<span>⚡</span>NETIC</div>
+      <nav class="links">
+        <a href="#download">Скачать</a>
+        <a href="#versions">Прошлые версии</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-glow"></div>
+    <div class="badge">Клиент для Minecraft 1.21.11</div>
+    <h1 class="hero-title">KINETIC</h1>
+    <div class="typing" id="typing"></div>
+    <div class="hero-btns">
+      <a href="#download" class="btn btn-primary">Скачать</a>
+    </div>
+  </section>
+
+  <section class="download" id="download">
+    <h2 class="sec-title">Скачать Kinetic</h2>
+    <div class="dl-card">
+      <div class="dl-version">v1.0.0</div>
+      <div class="dl-info">
+        <div class="dl-name">kinetic-1.0.0.jar</div>
+        <div class="dl-meta">Fabric · 1.21.11 · Java 21</div>
+      </div>
+      <a href="#" class="btn btn-primary" id="dlBtn">Скачать</a>
+    </div>
+  </section>
+
+  <section class="versions" id="versions">
+    <h2 class="sec-title">Прошлые версии</h2>
+    <table class="ver-table">
+      <thead>
+        <tr><th>Версия</th><th>Дата</th><th>Изменения</th><th></th></tr>
+      </thead>
+      <tbody id="versionsBody"></tbody>
+    </table>
+  </section>
+
+  <footer class="foot">
+    <div>KINETIC DLC — не является официальным продуктом Mojang.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
